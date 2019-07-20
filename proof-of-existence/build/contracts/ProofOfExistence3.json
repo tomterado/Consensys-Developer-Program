@@ -1,0 +1,177 @@
+{
+  "contractName": "ProofOfExistence3",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/tterado/Desktop/consensys_course_exercises/proof-of-existence/contracts/ProofOfExistence3.sol\":\"ProofOfExistence3\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/tterado/Desktop/consensys_course_exercises/proof-of-existence/contracts/ProofOfExistence3.sol\":{\"keccak256\":\"0x18ff177f20585431aed2221240191177a2adef291bb0904ad325618a4f986e6f\",\"urls\":[\"bzzr://10c2429730753dfdb07396aa8ba57158b0222554ae1f8b2a9a172863ea226241\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a723058209db98c653dcad153c255e933d7542d0d29f7719b885a2f0b4e0621b91e5ff0c20029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a723058209db98c653dcad153c255e933d7542d0d29f7719b885a2f0b4e0621b91e5ff0c20029",
+  "sourceMap": "26:59:3:-;;;57:26;8:9:-1;5:2;;;30:1;27;20:12;5:2;57:26:3;26:59;;;;;;",
+  "deployedSourceMap": "26:59:3:-;;;;;",
+  "source": "pragma solidity ^0.5.0;\n\n\ncontract ProofOfExistence3 {\n  constructor() public {\n  }\n}\n",
+  "sourcePath": "/Users/tterado/Desktop/consensys_course_exercises/proof-of-existence/contracts/ProofOfExistence3.sol",
+  "ast": {
+    "absolutePath": "/Users/tterado/Desktop/consensys_course_exercises/proof-of-existence/contracts/ProofOfExistence3.sol",
+    "exportedSymbols": {
+      "ProofOfExistence3": [
+        194
+      ]
+    },
+    "id": 195,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 189,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:3"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 194,
+        "linearizedBaseContracts": [
+          194
+        ],
+        "name": "ProofOfExistence3",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 192,
+              "nodeType": "Block",
+              "src": "78:5:3",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 193,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 190,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "68:2:3"
+            },
+            "returnParameters": {
+              "id": 191,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "78:0:3"
+            },
+            "scope": 194,
+            "src": "57:26:3",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 195,
+        "src": "26:59:3"
+      }
+    ],
+    "src": "0:86:3"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/tterado/Desktop/consensys_course_exercises/proof-of-existence/contracts/ProofOfExistence3.sol",
+    "exportedSymbols": {
+      "ProofOfExistence3": [
+        194
+      ]
+    },
+    "id": 195,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 189,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:3"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 194,
+        "linearizedBaseContracts": [
+          194
+        ],
+        "name": "ProofOfExistence3",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 192,
+              "nodeType": "Block",
+              "src": "78:5:3",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 193,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 190,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "68:2:3"
+            },
+            "returnParameters": {
+              "id": 191,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "78:0:3"
+            },
+            "scope": 194,
+            "src": "57:26:3",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 195,
+        "src": "26:59:3"
+      }
+    ],
+    "src": "0:86:3"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.8+commit.23d335f2.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.11",
+  "updatedAt": "2019-07-17T08:10:00.103Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
